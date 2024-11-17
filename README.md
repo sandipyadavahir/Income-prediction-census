@@ -3,12 +3,13 @@
 
 This project aims to predict an individual's income based on various demographic features extracted from census data. The model uses machine learning techniques to classify individuals into income groups (e.g., <=50K or >50K) based on features such as age, education, occupation, and more.
 
-Project Overview
+## Project Overview
+
 The goal of this project is to build a predictive model that can estimate whether an individual's income exceeds $50K per year based on their demographic information. This is a binary classification problem, where the target variable is the income class (<=50K or >50K).
 
 The project uses the well-known Census Income Dataset from the UCI Machine Learning Repository. The dataset includes attributes like age, workclass, education, marital status, occupation, hours worked per week, and more.
 
-Dataset
+## Dataset
 The dataset consists of both continuous and categorical features, which are used to predict whether an individual earns more or less than 50K annually. It contains the following columns:
 
 age: Age of the individual
